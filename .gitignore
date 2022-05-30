@@ -1,4 +1,13 @@
+#visual studio
+.vs/
+out/
+CMakeSettings.json
+#visual studio code
+.vscode/
 build/
+#clion
+.idea/
+cmake-build*/
+#project
 *.qoi
-.vscode
 testing
