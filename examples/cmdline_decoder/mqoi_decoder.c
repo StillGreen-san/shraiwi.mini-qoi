@@ -6,9 +6,6 @@
 
 #include "mini_qoi.h"
 
-// uncomment to stream the file
-// #define STREAM_FILE
-
 uint64_t micros(){
     struct timespec ts;
     clock_gettime(CLOCK_MONOTONIC_RAW, &ts);
